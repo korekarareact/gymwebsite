@@ -1,0 +1,266 @@
+@media screen and (min-width: 850px) {
+    body {
+        background: #191919;
+        color: white;
+        width: 1200px;
+        display: block;
+        margin: 0px auto;
+    }
+    a{
+        text-decoration: none;
+        color:white;
+    }
+    #wrapper{
+        padding:0 10px;
+    }
+    .sub-navbar{
+        display: inline-block;
+        margin-right: 5px;
+
+    }
+    .sub-navbar a{
+        padding:10px;
+        border-radius: 3px;
+        background: darkblue;
+    }
+    .sub-navbar > a:hover {
+        color: #666;
+        background: #DDD
+    }
+    .main-title{
+        float: left;
+        margin:0;
+        margin-right: 50px;
+    }
+    ul{
+        margin:0;
+    }
+
+    .main-navbar {
+        list-style: none;
+        float:right;
+        display: inline-block;
+    }
+
+    .main-navbar a {
+        text-decoration: none;
+        padding: 15px 10px;
+        font-size: 20px;
+        text-align: center;
+        background: #000000;
+
+    }
+
+    .main-navbar > a:hover {
+        color: #666;
+        background: #DDD
+    }
+
+    .main-navbar > a {
+        color: white;
+    }
+    .header{
+        background: #000000;
+        height:36px;
+        padding-top:15px;
+        padding-left:10px;
+        border-bottom:2px solid white;
+    }
+
+    .content{
+        clear:left;
+        margin-top:30px;
+        padding-left:20px;
+        padding-bottom: 30px;
+    }
+    .content>iframe{
+        width:600px;
+        height:450px;
+    }
+    /*
+    二手買賣
+    */
+    .columns {
+        -webkit-column-width: 200px; /* Chrome, Safari, Opera */
+        -moz-column-width: 200px; /* Firefox */
+        column-width: 200px;
+        width: 90%;
+        max-width: 1000px;
+        margin: 50px auto;
+    }
+    .columns>div>div>>div>span {
+        border: 2px solid #fcfcfc;
+        box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+        margin: 0 2px 15px;
+        padding: 15px;
+        padding-bottom: 10px;
+        transition: opacity .4s ease-in-out;
+        display: inline-block;
+        column-break-inside: avoid;
+    }
+    .columns>div>div>div>span>img{
+        width: 200px;
+        height: auto;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 15px;
+        margin-bottom: 5px;
+    }
+    .columns>div>form>input{
+        width:200px;
+        color: #000000;
+        padding: 10px 0;
+        border: 2px solid red;
+    }
+    /*
+    二手買賣
+    */
+    .toggle-btn{
+        display: none;
+    }
+    .toggle-btn-item{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 849px) {
+    body {
+        background: #191919;
+        color: white;
+        width: 100%;
+        display: block;
+        margin: 0px auto;
+    }
+    a{
+        text-decoration: none;
+        color:white;
+    }
+    #wrapper{
+        padding:0 10px;
+    }
+    .sub-navbar{
+        display: inline-block;
+        margin-right: 5px;
+
+    }
+    .sub-navbar a{
+        padding:10px;
+        border-radius: 3px;
+        background: darkblue;
+    }
+    .sub-navbar > a:hover {
+        color: #666;
+        background: #DDD
+    }
+    .main-title{
+        float: left;
+        margin:0;
+        margin-right: 50px;
+    }
+    ul{
+        margin:0;
+    }
+
+    .main-navbar {
+        list-style: none;
+        float:left;
+        display: none;
+    }
+
+    .header{
+        background: #000000;
+        height:36px;
+        padding-top:15px;
+        padding-bottom:15px;
+        border-bottom:2px solid white;
+        width:100%;
+    }
+
+    .content{
+        clear:left;
+        padding-top:10px;
+        padding-bottom: 30px;
+    }
+    .content>iframe{
+        width:100%;
+    }
+    /*
+    二手買賣
+    */
+    .columns {
+        -webkit-column-width: 200px; /* Chrome, Safari, Opera */
+        -moz-column-width: 200px; /* Firefox */
+        column-width: 200px;
+        width: 90%;
+        max-width: 1000px;
+        margin: 50px auto;
+    }
+    .columns>div>div>>div>span {
+        border: 2px solid #fcfcfc;
+        box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+        margin: 0 2px 15px;
+        padding: 15px;
+        padding-bottom: 10px;
+        transition: opacity .4s ease-in-out;
+        display: inline-block;
+        column-break-inside: avoid;
+    }
+    .columns>div>div>div>span>img{
+        width: 200px;
+        height: auto;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 15px;
+        margin-bottom: 5px;
+    }
+    .columns>div>form>input{
+        width:200px;
+        color: #000000;
+        padding: 10px 0;
+        border: 2px solid red;
+    }
+    .columns>div{
+        text-align: center;
+    }
+    /*
+    二手買賣
+    */
+    .toggle-btn{
+        display: block;
+        float:right;
+        color: #ffffff;
+        padding:10px 5px;
+        border-radius: 3px;
+        border:2px solid #ffffff;
+        background: black;
+        margin-bottom: 10px;
+        margin-right: 20px;
+    }
+    .off {
+        display: none;
+    }
+    .on{
+        display: block;
+        text-align: center;
+        width:100%;
+        float:left;
+        clear: both;
+        background:#000;
+        color: black;
+    }
+    .on a{
+        display: block;
+        width: 100%;
+        font-weight: bold;
+        padding: 10px 0;
+    }
+    .on a:hover{
+        background-color: #DDD;
+        color: black !important;
+    }
+    ul{
+        padding:0;
+
+    }
+
+
+
+}
